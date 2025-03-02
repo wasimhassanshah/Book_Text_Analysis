@@ -46,7 +46,7 @@ Follow these steps to run the app locally using Conda:
 3. Create a virtual environment named venv with Python 3.11: `conda create -p venv python=3.11 -y`
 4. Activate the venv environment `conda activate venv/`
 5. Install dependencies: `pip install -r requirements.txt`
-6. Add your Groq API key to `.env`
+6. Add your Groq API key to `.env`  as GROQ_API_KEY=
 7. Run locally: `streamlit run app.py`
 
 ## Features
